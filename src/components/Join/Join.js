@@ -10,6 +10,8 @@ export default function SignIn() {
   return (
     <div className="joinOuterContainer">
       <div className="joinInnerContainer">
+      <h1>Realtime Chat Application <span role="img" aria-label="emoji">💬</span></h1>
+      <h2>Made with<span role="img" aria-label="emoji">❤️</span><h2>BY---Parvinder Singh</h2></h2>
         <h1 className="heading">Join</h1>
         <div>
           <input placeholder="Name" className="joinInput" type="text" onChange={(event) => setName(event.target.value)} />
@@ -21,8 +23,7 @@ export default function SignIn() {
           <button className={'button mt-20'} type="submit">Sign In</button>
         </Link>
         <div>
-      <h1>Realtime Chat Application <span role="img" aria-label="emoji">💬</span></h1>
-      <h2>Made with<span role="img" aria-label="emoji">❤️</span><h2>BY---Parvinder Singh</h2></h2>
+     
 
     </div>
       </div>
