@@ -17,7 +17,7 @@ const Chat = ({ location }) => {
   const [users, setUsers] = useState('');
   const [message, setMessage] = useState('');
   const [messages, setMessages] = useState([]);
-  const ENDPOINT = 'https://condescending-mestorf-046396.netlify.app/';
+  const ENDPOINT = 'https://parvinder-app.herokuapp.com/';
 
   useEffect(() => {
     const { name, room } = queryString.parse(location.search);
